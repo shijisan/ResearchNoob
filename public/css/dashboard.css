@@ -1,0 +1,48 @@
+body{
+    background-color:  #121212;
+}
+
+.startProject{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5em;
+    color: white;
+    border: buttonFace 2px solid;
+    font-size: x-large;
+    font-weight: bold;
+}
+.startProject:hover{
+    transition: 0.25s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: darkslategrey;
+    border: darkslategrey 2px solid;
+    font-size: xx-large;
+}
+
+.grid .col{
+    display: flex;
+}
+
+.grid button{
+    width: -webkit-fill-available;
+}
+
+.grid .col .card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.5em;
+    color: white;
+    border: buttonFace 2px solid;
+    height: 240px;
+}
+
+.grid .col a{
+    text-decoration: none;
+}
+
+.grid .col .card:hover{
+    transition: 0.25s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: darkslategrey;
+    border: darkslategrey 2px solid;
+}
+
+

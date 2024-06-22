@@ -1,0 +1,19 @@
+.sidebarMenu{
+    height: 93vh;
+}
+body{
+    overflow-y: hidden;
+}
+
+.sidebarMenu .nav-link{
+    padding: 1em 1em;
+}
+
+.sidebarMenu .nav-link:hover{
+    background-color: lightgray;
+    transition: 0.25s ease-in-out;
+}
+
+.sidebarMenu .nav-link.active{
+    background-color: lightgrey;
+}

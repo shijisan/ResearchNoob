@@ -1,0 +1,51 @@
+document-editor.css
+
+/* Toolbar styling */
+.btn-toolbar {
+    margin-bottom: 15px;
+}
+
+/* Button group styling */
+.btn-group {
+    margin-right: 5px;
+}
+
+/* Document content styling */
+#document-content {
+    border: 1px solid #ccc;
+    min-height: 300px; /* Adjust as needed */
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow-y: auto; /* Enable vertical scroll if content overflows */
+}
+
+/* Image input button styling */
+#image-input {
+    display: none;
+}
+
+/* Button styling */
+.btn {
+    margin-right: 5px;
+}
+
+/* Toggled button styling */
+.btn-toggled {
+    background-color: #007bff; /* Adjust the color as needed */
+    color: white;
+}
+
+/* Optional: Custom styles for sidebar and navigation */
+/* Add your custom styles here if needed */
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.underline{
+    text-decoration: underline;
+}

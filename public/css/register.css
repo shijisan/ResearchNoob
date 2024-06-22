@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    background-color: royalblue;
+}
+.container:nth-child(1){
+    height: 100%;
+}
+.col-md-6 h1, .col-md-6 h6, .col-md-6 label:nth-child(3){
+    color: white;
+}
+.col-md-6 .card{
+    min-width: 28em;
+}
